@@ -1,3 +1,5 @@
+import Cars_Class
+
 #lists
 courses = ["Maths","Biology","Physics","Chemistry"]
 courses.insert(2,"Geography")
@@ -40,3 +42,12 @@ x = 0
 while True:
     x += 10
     print(x)
+    if(x > 100):
+        break
+
+
+myCar1 = Cars_Class.cars('Aston Martin',250,2018,'5,000,000')
+myCar2 = Cars_Class.cars('Rolls Royce',450,2018,'10,000,000')
+
+print(myCar1.car_features())   
+print(myCar2.car_features())    
