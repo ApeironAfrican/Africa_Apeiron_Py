@@ -20,3 +20,5 @@ mech = mechanic('Dickson Martin', 'Volvo', 'mechanic', '$150,000')
 print(driver.persona_details())
 print(mech.persona_details())
 #print(help(mech))
+list = [102, 343 , 'que', 2.2, 50]
+print(list[0:4])
